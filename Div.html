@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+.p6{
+  width: 100px; 
+  margin: 0 auto; 
+  background: #f8a202; 
+  text-align: center;
+  transition: 0.15s;
+  padding: 10px;
+  color: #ddd;
+
+}
+.p6:hover{
+  background-color: rgb(199, 129, 0);
+  color: #000;
+}
+
+
+</style>
+<body >
+
+  <h2>Practice 1: Basic Box</h2>
+  <div style="background-color: rgb(84, 147, 169); padding: 40px;">
+    Hello, I am a box!
+  </div>
+  
+  <h2>Practice 2: Two Boxes Side By Side</h2>
+  <div style="display: flex; gap: 30px">
+    <div style="background: salmon; width: 30%; padding: 10px;">Left</div>
+    <div style="background: lightgreen; width: 70%; padding: 10px;">Right</div>
+  </div>
+  
+  <h2>Practice 3: Center a Div</h2>
+  <div style="width: 100px; margin: 0 auto; background: #ddd; text-align: center;">
+    I’m centered!
+  </div>
+  
+  <h2>Practice 4: Colored Header and Footer</h2>
+  <div style="background: navy; color: white; padding: 10px; border: 1px solid #000; box-shadow:2px 2px 6px rgba(0, 0, 0, 0.3);">Header</div>
+  <div style="padding: 20px;">Main Content Here</div>
+  <div style="background: gray; color: white; padding: 10px; border: 1px solid #000; box-shadow:2px 2px 6px rgba(0, 0, 0, 0.3); ">Footer</div>
+  
+  <h2>Practice 5: Nested Divs</h2>
+  <div style="background: lightgray; padding: 20px; border: 1px solid #000;">
+    Outer Div
+    <div style="background: white; padding: 10px; margin-top: 10px; border: 1px solid #000;">
+      Inner Div
+    </div>
+  </div>
+  
+  <h2>Practice 6:  Div as Button</h2>
+  <div class="p6" >
+    Click Me
+  </div>
+  
+  <h2>Practice 7: Responsive Box</h2>
+  <div style="width: 100%; max-width: 500px; background: #f9f9f9; padding: 20px; margin: auto;">
+    This box adjusts its size!
+  </div>
+  
+  <h2>Practice 8: Flexbox Layout with Divs</h2>
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <div style="background: pink; padding: 20px;">Box 1</div>
+    <div style="background: lightblue; padding: 20px;">Box 2</div>
+    <div style="background: lightyellow; padding: 20px;">Box 3</div>
+  </div>
+  
+  <h2>Practice 9: Div with Border and Shadow</h2>
+  <div style="border: 2px solid #837b7b; padding: 20px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.854);">
+    Stylish Box
+  </div>
+  
+
+  <h2>Practice 10: Div Card with Image and Text</h2>
+  <div style="border: 1px solid #ccc; padding: 15px; width: 250px;">
+    <img src="https://i.pinimg.com/736x/4d/59/b3/4d59b31ceca88b625789c68745450058.jpg" style="width: 100%;">
+    <h3>Card Title</h3>
+    <p>This is a simple card using a div.</p>
+    <button style="background-color: aqua; color: #000; border: none; padding: 10px"> click here</button>
+  </div>
+  
+  <h2>Practice 11: Gradient Background Div</h2>
+  <div style="padding: 30px; background: linear-gradient(to left, #5098fb, #ff73e1); color: rgb(0, 0, 0);">
+    Beautiful Gradient Background
+  </div>
+  
+  <h2>Practice 12:  Div with a Hover Effect</h2>
+  <div style="width: 200px; height: 100px; background: skyblue; transition: 0.3s;text-align: center; "
+  onmouseover="this.style.background='steelblue'" this.style.transform="scale(1.1)"
+  onmouseout="this.style.background='skyblue'">
+Hover over me!
+</div>
+
+  <h2>Practice 13: Div That Looks Like a Sticky Note</h2>
+  <div style="background: #ffff88; padding: 20px; width: 200px; font-family: cursive; box-shadow: 5px 5px 10px #ccc; transform: rotate(+2deg); border: #000 1px solid;">
+    Don’t forget to code today!
+  </div>
+  
+  <h2>Practice 14: Glassmorphism Effect</h2>
+<div style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(8px); padding: 20px; border-radius: 10px; color: white; border: 1px solid rgba(255, 255, 255, 0.3); width: 300px;">
+  Glass-like div effect!
+</div>
+
+  <h2>Practice 15: Collapsible Div (Pure HTML + JS)</h2>
+  <div onclick="document.getElementById('hidden').style.display='block'" style="cursor: pointer; background: coral; padding: 10px; color: white;">
+    Click to show more...
+  </div>
+  <div id="hidden" style="display: none; padding: 10px; background: lightcoral;">
+    🎉 Surprise! Here's some hidden content.
+  </div>
+  
+  <h2>Practice 16:  Responsive Grid Using Divs</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px;">
+    <div style="background: lavender; padding: 20px;">1</div>
+    <div style="background: lavender; padding: 20px;">2</div>
+    <div style="background: lavender; padding: 20px;">3</div>
+    <div style="background: lavender; padding: 20px;">4</div>
+  </div>
+  
+  <h2>Practice 17: Color Palette using Divs</h2>
+  <div style="display: flex;">
+    <div style="width: 50px; height: 50px; background: #ff6b6b;"></div>
+    <div style="width: 50px; height: 50px; background: #feca57;"></div>
+    <div style="width: 50px; height: 50px; background: #1dd1a1;"></div>
+    <div style="width: 50px; height: 50px; background: #54a0ff;"></div>
+  </div>
+  
+  <h2>Practice 18: Div as a Badge/Label</h2>
+  <div style="display: inline-block; background: crimson; color: white; padding: 5px 20px; border-radius: 20px;">
+    New!
+  </div>
+  
+  <h2>Practice 19: Mobile Notification Card</h2>
+  <div style="max-width: 300px; padding: 15px; background: #fff3cd; border: 1px solid #ffeeba; border-radius: 10px; margin-bottom: 10px;">
+    <strong>⚠️ Alert:</strong> You have 2 unread messages.
+  </div>
+  <div style="max-width: 300px; padding: 15px; background: #bded89; border: 1px solid #ffeeba; border-radius: 10px; margin-bottom: 10px;">
+    <strong>✅ Success:</strong>Your message has been sent!
+  </div>
+  
+  <h2>Practice 20: Chat Bubble Style</h2>
+  <div style="display: flex; justify-content: flex-end;">
+  <div style="max-width: 250px; background: #e0f7fa; padding: 10px 15px; border-radius: 20px; margin: 10px 0;">
+    Hello! This is a chat message.
+  </div>
+</div>
+  
+
+
+
+</body>
+</html>
